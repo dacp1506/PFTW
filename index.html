@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BoliviaTours - Viajes y Aventura en Bolivia</title>
+  <meta name="description" content="BoliviaTours - Descubre la riqueza cultural, histórica y natural de Bolivia. Paquetes y experiencias únicas." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">BOLIVIA<span>TOURS</span></a>
+      <nav class="main-nav">
+        <a href="#destinos">Destinos</a>
+        <a href="#paquetes">Paquetes</a>
+        <a href="#experiencias">Experiencias</a> <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#contacto" class="btn-outline">Contacto</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <h1>Bolivia: Aventuras en el Corazón de Sudamérica.</h1>
+        <p>Descubre el Salar de Uyuni, la Amazonía y los Andes. Paquetes únicos con enfoque sostenible.</p>
+        <form class="search-form" action="#" onsubmit="return false;">
+          <input type="text" placeholder="Busca un destino, ej. Uyuni, La Paz, Sucre" aria-label="Buscar destino">
+          <select aria-label="Tipo de viaje">
+            <option value="cualquiera">Cualquiera</option>
+            <option value="altiplano">Altiplano</option>
+            <option value="amazonía">Amazonía</option>
+            <option value="cultural">Cultural</option>
+            <option value="aventura">Aventura</option>
+          </select>
+          <button class="btn">Buscar</button>
+        </form>
+      </div>
+      <div class="hero-right" aria-hidden="true">
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1541097241804-06990422964c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTI2MjV8MHwxfHNlYXJjaHwzfHxzYWxhciUyMHZpZXd8ZW58MHx8fHwxNzA1NjAzMTE2fDA&ixlib=rb-4.0.3&q=80&w=800" alt="Salar de Uyuni al atardecer">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="destinos" class="section container">
+      <h2 class="section-title">Destinos Destacados de Bolivia</h2>
+      <p class="muted">Regiones imperdibles, seleccionadas por nuestros expertos locales.</p>
+      <div class="grid grid-3">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1596706013348-1011867119ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTI2MjV8MHwxfHNlYXJjaHwxfHxVeXVuaSUyMHNhbHR8ZW58MHx8fHwxNzA1NjAzMTE2fDA&ixlib=rb-4.0.3&q=80&w=800" alt="Salar de Uyuni">
+          <div class="card-body">
+            <h3>Salar de Uyuni y Altiplano</h3>
+            <p>El desierto de sal más grande del mundo y lagunas de colores vibrantes.</p>
+            <a class="link" href="#">Ver paquetes</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1621251996113-d143c7b80584?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTI2MjV8MHwxfHNlYXJjaHwxfHxhbWF6b25pYSUyMGJvbGl2aWF8ZW58MHx8fHwxNzA1NjAzMTE2fDA&ixlib=rb-4.0.3&q=80&w=800" alt="Río en la Amazonía Boliviana">
+          <div class="card-body">
+            <h3>Amazonía y Selva</h3>
+            <p>Fauna exótica, ríos caudalosos y comunidades nativas en el corazón de la selva.</p>
+            <a class="link" href="#">Ver paquetes</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1596885341673-d56d7736ed71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTI2MjV8MHwxfHNlYXJjaHwxfHxMYSUyMFBheiUyMGJvbGl2aWF8ZW58MHx8fHwxNzA1NjAzMTE2fDA&ixlib=rb-4.0.3&q=80&w=800" alt="Vista de La Paz y El Alto">
+          <div class="card-body">
+            <h3>La Paz, Sucre y Potosí</h3>
+            <p>Riqueza colonial, arquitectura impresionante y mercados vibrantes.</p>
+            <a class="link" href="#">Ver paquetes</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    
+    <section id="experiencias" class="section container">
+        <h2 class="section-title">Añade Experiencias Únicas</h2>
+        <p class="muted">Actividades que puedes reservar individualmente para complementar tu viaje.</p>
+        <div class="grid grid-3">
+            <article class="card package">
+                <h3>Trekking al Huayna Potosí</h3>
+                <p class="price">Desde $150</p>
+                <ul>
+                    <li>Equipo profesional</li>
+                    <li>Guía de alta montaña</li>
+                    <li>Aclimatación previa</li>
+                </ul>
+                <button class="btn">Detalles</button>
+            </article>
+
+            <article class="card package">
+                <h3>Tour Gastronómico en Cochabamba</h3>
+                <p class="price">Desde $45</p>
+                <ul>
+                    <li>Degustación de Platos típicos</li>
+                    <li>Visita al Mercado Central</li>
+                    <li>Clase de cocina corta</li>
+                </ul>
+                <button class="btn">Detalles</button>
+            </article>
+
+            <article class="card package">
+                <h3>Visita a Misiones Jesuíticas</h3>
+                <p class="price">Desde $120</p>
+                <ul>
+                    <li>Recorrido por San Javier</li>
+                    <li>Transporte desde Santa Cruz</li>
+                    <li>Almuerzo tradicional</li>
+                </ul>
+                <button class="btn">Detalles</button>
+            </article>
+        </div>
+    </section>
+
+    <section id="paquetes" class="section alt-bg">
+      <div class="container">
+        <h2 class="section-title">Paquetes Populares</h2>
+        <div class="grid grid-3">
+          <div class="package">
+            <h3>Aventura en Uyuni - 3 días</h3>
+            <p class="price">$399</p>
+            <ul>
+              <li>Transporte 4x4</li>
+              <li>Hotel de sal 1 noche</li>
+              <li>Todas las comidas</li>
+            </ul>
+            <button class="btn">Reservar</button>
+          </div>
+
+          <div class="package">
+            <h3>Ruta del Che y Potosí - 5 días</h3>
+            <p class="price">$679</p>
+            <ul>
+              <li>Guía histórico local</li>
+              <li>Alojamiento colonial</li>
+              <li>Entradas a museos y minas</li>
+            </ul>
+            <button class="btn">Reservar</button>
+          </div>
+
+          <div class="package">
+            <h3>Relax en el Lago Titicaca - 4 días</h3>
+            <p class="price">$449</p>
+            <ul>
+              <li>Hotel frente al lago 4★</li>
+              <li>Paseo en barca a Isla del Sol</li>
+              <li>Desayuno andino incluido</li>
+            </ul>
+            <button class="btn">Reservar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-nosotros" class="section container">
+      <div class="about-grid">
+        <div>
+          <h2>Nuestra Misión y Compromiso</h2>
+          <p>En BoliviaTours, creamos viajes auténticos y responsables. Conectamos a nuestros viajeros con la cultura viva de Bolivia, apoyando a comunidades locales y promoviendo el turismo sostenible.</p>
+          <ul>
+            <li>**Soporte 24/7** en Español e Inglés.</li>
+            <li>**Reservas flexibles** y seguros de viaje.</li>
+            <li>**Guías locales** expertos y certificados.</li>
+            <li>**Compromiso** con el impacto positivo.</li> </ul>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            "El viaje al Salar de Uyuni fue mágico. La organización de BoliviaTours fue impecable y el guía nos hizo sentir parte de la comunidad."
+            <cite>— Javier M., viajero desde España</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section alt-bg">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contáctanos y Planifica tu Aventura</h2>
+          <p>¿Tienes dudas sobre los visados o itinerarios? Escríbenos y te ayudamos a diseñar el viaje perfecto a Bolivia.</p>
+          <p><strong>Email:</strong> hola@boliviatours.com</p>
+          <p><strong>Teléfono:</strong> +591 4 411 2233 (Cochabamba)</p>
+        </div>
+        <form class="contact-form" action="#" onsubmit="return false;">
+          <input type="text" placeholder="Tu nombre" required>
+          <input type="email" placeholder="Tu correo" required>
+          <textarea placeholder="Mensaje" rows="5" required></textarea>
+          <button class="btn">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a class="logo small" href="#">BOLIVIA <span>TOURS</span></a>
+        <p class="muted">Descubre el corazón de Sudamérica. Turismo responsable.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Enlaces Rápidos</h4>
+        <nav>
+          <a href="#">Términos y Condiciones</a>
+          <a href="#">Política de Privacidad</a>
+          <a href="#">Preguntas Frecuentes</a> </nav>
+      </div>
+      <div class="footer-col">
+        <h4>Síguenos</h4>
+        <nav>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">YouTube</a> </nav>
+      </div>
+    </div>
+    <div class="copyright">© 2025 BoliviaTours. Todos los derechos reservados.</div>
+  </footer>
+
+  <script>
+    // Pequeño script para el menú responsivo
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle?.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
