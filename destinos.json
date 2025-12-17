@@ -1,0 +1,25 @@
+{
+  "destinos": [
+    {
+      "nombre": "Salar de Uyuni y Altiplano",
+      "imagen": "https://www.lorenzoexpeditions.com/wp-content/uploads/2025/01/Salar-de-Uyuni-5.jpg",
+      "descripcion": "El desierto de sal más grande del mundo y lagunas de colores vibrantes.",
+      "precio": "$399",
+      "duracion": "3 días"
+    },
+    {
+      "nombre": "Amazonía y Selva",
+      "imagen": "https://cdn.bolivia.com/sdi/2020/08/12/bolivia-adhiere-plan-preservar-ecosistema-amazonia-849476.jpg",
+      "descripcion": "Fauna exótica, ríos caudalosos y comunidades nativas.",
+      "precio": "$520",
+      "duracion": "4 días"
+    },
+    {
+      "nombre": "La Paz, Sucre y Potosí",
+      "imagen": "https://magritouroperator.com/wp-content/uploads/2023/09/sucre-potosi-magri-3.jpg",
+      "descripcion": "Riqueza colonial, arquitectura impresionante y mercados vibrantes.",
+      "precio": "$679",
+      "duracion": "5 días"
+    }
+  ]
+}
